@@ -14,7 +14,7 @@ function multiplication(a, b) {
 }
 
 function division(a, b) {
-    return a/b;
+    return a / b;
 }
 
 // alert(division(60,0));
