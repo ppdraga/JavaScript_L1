@@ -11,7 +11,7 @@ function NumberToObj(number) {
     var temp = new Array();
     while(number > 0) {
         temp.push(number % 10)
-        number = Math.floor(number/10)
+        number = Math.floor(number / 10)
         // console.log(temp)
     }
     var result = {
