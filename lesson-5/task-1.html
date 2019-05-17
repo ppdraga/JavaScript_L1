@@ -22,7 +22,7 @@
         for (var j = 0; j < 9; j++) {
             var td = document.createElement('td');
          
-            if (i%2 == j%2 || i == 0 || j == 0) {
+            if (i % 2 == j % 2 || i == 0 || j == 0) {
                     td.className = "white";
                 if (i == 0 && j != 0) { td.innerHTML = String.fromCharCode(64 + j) }
                 if (i != 0 && j == 0) { td.innerHTML = i }
